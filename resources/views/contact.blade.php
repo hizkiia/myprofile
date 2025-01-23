@@ -7,7 +7,16 @@
 
 <div class="container">
     <h1 class="about-title text-white animate-fade-in">Contact Me</h1>
-    <form>
+
+    <!-- Menampilkan Pesan Sukses -->
+    @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+    @endif
+
+    <form method="POST" action="{{ route('contact.send') }}">
+        @csrf
         <div class="mb-3">
             <label for="name" class="form-label lead about-text text-light animate-slide-up">Name</label>
             <input type="text" class="form-control animate-slide-up" id="name" name="name" placeholder="Your Name" required>
