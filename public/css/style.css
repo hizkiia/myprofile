@@ -28,6 +28,7 @@ p {
 }
 
 .btn-primary {
+    font-family: "Chakra Petch", serif;
     background-color: #353434 !important;
     border-color: #000000 !important;
     font-family: "Chakra Petch", serif;
@@ -101,6 +102,13 @@ p {
     transform: translateY(-10px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
+.navbar,
+.navbar-brand,
+.nav-link {
+    font-family: 'Chakra Petch', serif !important;
+}
+
 
 /* Animasi */
 @keyframes fadeIn {
