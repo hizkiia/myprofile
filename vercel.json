@@ -9,6 +9,18 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/image/(.*)",
+            "dest": "/public/image/"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/public/css/"
+        },
+        {
+            "src": "/js/(.*)",
+            "dest": "/public/js/"
         }
     ],
     "env": {
