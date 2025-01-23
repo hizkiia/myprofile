@@ -8,7 +8,7 @@
 <div class="projects-container text-center">
     <h1 class="text-white mb-4 animate-fade-in">My Projects</h1>
     <div class="row">
-        <div class="col-md-4">
+        <div class="mt-2 col-md-4">
             <div class="card project-card animate-slide-up">
                 <center class="mt-3">
                     <img src="{{ asset('image/LogoStayAwake.png') }}" width="70px" alt="StayAwake">
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="mt-2 col-md-4">
             <div class="card project-card animate-slide-up delay-1">
                 <center class="mt-3">
                     <img src="{{ asset('image/EuforiaHome.png') }}" width="70px" alt="EuforiaHome">
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="mt-2 col-md-4">
             <div class="card project-card animate-slide-up delay-2">
                 <center class="mt-3">
                     <img src="{{ asset('image/Sudimoro.png') }}" width="70px" alt="Sudimoro Website">
