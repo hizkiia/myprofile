@@ -33,9 +33,7 @@
     <div class="container mt-4">
         @yield('content')
     </div>
-    <!-- <footer class="bg-dark text-white text-center py-3 mt-4">
-        &copy; {{ date('Y') }} Portofolio by Hizkia Pratama
-    </footer> -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
