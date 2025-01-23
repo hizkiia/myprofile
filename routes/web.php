@@ -10,6 +10,6 @@ Route::get('/about', [PortofolioController::class, 'about'])->name('about');
 Route::get('/projects', [PortofolioController::class, 'projects'])->name('projects');
 Route::get('/contact', [PortofolioController::class, 'contact'])->name('contact');
 
-use App\Http\Controllers\ContactController;
+// use App\Http\Controllers\ContactController;
 
-Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
+// Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
